@@ -12,6 +12,6 @@ def my_each (collection)
   end
 end
 
-my_each ([1,2,3,4]) do |num|
+my_each (collection) do |num|
   puts num
 end
