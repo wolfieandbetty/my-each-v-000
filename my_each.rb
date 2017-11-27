@@ -1,4 +1,3 @@
-collection=[1,2,3,4]
 
 def my_each (collection)
   if block_given?
@@ -13,6 +12,6 @@ else
 end
 end
 
-my_each (collection) do |num|
+my_each ([1,2,3,4]) do |num|
   puts "#{num}"
 end
